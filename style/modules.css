@@ -1,0 +1,71 @@
+@media all and (max-width:768px) {
+  header {
+    background-color: #EAFAF1;
+  }
+  aside{
+    background-color: #DAF7A6;
+  }
+  .topSection > div:first-child {
+    background-color: #F9E79F;
+  }
+  .topSection > div:last-child {
+    background-color: #FDD16C;
+  }
+  .related {
+    float: left;
+    width: 50%;
+  }
+  .mobileTop > div:first-child {
+    background-color: #F5B041;
+  }
+  .mobileTop > div:last-child {
+    background-color: #DC7633;
+  }
+  .mobileBot > div:first-child {
+    background-color: #D35400;
+  }
+  .mobileBot > div:last-child {
+    background-color: #BA4A00;
+  }
+  footer {
+    background-color: #A04000;
+  }
+}
+
+@media all and (min-width:769px) {
+  .featured {
+    float: left;
+    width: 50%;
+  }
+  .related {
+    float: left;
+    width: 25%;
+  }
+  header {
+    background-color: #E5E7E9;
+  }
+  aside {
+    background-color: #D7DBDD;
+  }
+  .topSection > div:first-child {
+    background-color: #CACFD2;
+  }
+  .topSection > div:last-child {
+    background-color: #B2BABB;
+  }
+  .mobileTop > div:first-child {
+    background-color: #99A3A4;
+  }
+  .mobileTop > div:last-child {
+    background-color: #7F8C8D;
+  }
+  .mobileBot > div:first-child {
+    background-color: #616A6B;
+  }
+  .mobileBot > div:last-child {
+    background-color: #34495E;
+  }
+  footer {
+    background-color: #515A5A;
+  }
+}

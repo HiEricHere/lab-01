@@ -1,0 +1,77 @@
+/* mobile breakpoint */
+@media all and (max-width:768px) {
+  header {
+    height: 75px;
+    width: 100%;
+    margin: auto;
+  }
+  aside {
+    height: 150px;
+    width: 100%;
+    margin: auto;
+  }
+  .featured { 
+    height: 125px;
+    width: 100%;
+    margin: auto;
+  }
+  .midSection{
+    width: 100%;
+    margin: auto;
+  }
+  .midSection > section {
+    display: block;
+    height: 250px;
+    width: 100%;
+    margin: auto;
+  }
+  .related {
+    height: 250px;
+  }
+  footer {
+    height: 80px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media all and (min-width:769px) {
+  body {
+    max-width: 1152px;
+    width: 80%;
+    margin: auto;
+  }
+  header {
+    height: 100px;
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  aside {
+    float: left;
+    height: 600px;
+    width: 20.8333333%;
+  }
+  .topSection {
+    float: left;
+    height: 200px;
+    width: 79.1666667%;
+  }
+  .featured {
+    height: 200px;
+  }
+  .midSection {
+    float: left;
+    height: 250px;
+    width: 79.1666667%;
+  }
+  .related {
+    height: 250px;
+  }
+  footer {
+    float: left;
+    height: 150px;
+    width: 79.1666667%;
+  }
+}
