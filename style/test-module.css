@@ -1,0 +1,48 @@
+@media all and (max-width: 768px) {
+
+  header {
+    background-color: #EAFAF1;
+    height: 75px;
+    /* justify-items: stretch;
+    align-self: center; */
+  }
+
+  main {
+    /* justify-items: stretch;
+    align-items: center; */
+  }
+
+  aside {
+    background-color: #DAF7A6;
+  }
+
+  .c {
+    background-color: #F9E79F;
+  }
+
+  .d {
+    background-color: #FDD16C;
+  }
+
+  .e {
+    background-color: #F5B041;
+  }
+
+  .f {
+    background-color: #DC7633;
+  }
+
+  .g {
+    background-color: #D35400;
+  }
+
+  .h {
+    background-color: #BA4A00;
+  }
+
+  footer {
+    background-color: #A04000;
+    /* justify-items: stretch; */
+  }
+
+}
