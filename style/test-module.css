@@ -1,3 +1,5 @@
+/* mobile view */
+
 @media all and (max-width: 768px) {
 
   header {
@@ -40,9 +42,48 @@
     background-color: #BA4A00;
   }
 
-  footer {
+  .i {
     background-color: #A04000;
     /* justify-items: stretch; */
   }
 
+}
+
+/* PC view */
+@media all and (min-width: 769px) {
+  header {
+    background-color: #E5E7E9;
+  }
+
+  aside {
+    background-color: #D7DBDD;
+  }
+
+  .c {
+    background-color: #CACFD2;
+  }
+
+  .d {
+    background-color: #B2BABB;
+  }
+
+  .e {
+    background-color: #99A3A4;
+  }
+
+  .f {
+    background-color: #7F8C8D;
+  }
+
+  .g {
+    background-color: #616A6B;
+  }
+
+  .h {
+    background-color: #34495E;
+  }
+
+  .i {
+    background-color: #515A5A;
+  }
 }
